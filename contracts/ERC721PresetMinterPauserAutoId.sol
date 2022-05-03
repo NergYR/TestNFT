@@ -3,13 +3,13 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC721.sol";
-import "../extensions/ERC721Enumerable.sol";
-import "../extensions/ERC721Burnable.sol";
-import "../extensions/ERC721Pausable.sol";
-import "../../../access/AccessControlEnumerable.sol";
-import "../../../utils/Context.sol";
-import "../../../utils/Counters.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol";
+import "../node_modules/@openzeppelin/contracts/access/AccessControlEnumerable.sol";
+import "../node_modules/@openzeppelin/contracts/utils/Context.sol";
+import "../node_modules/@openzeppelin/contracts/utils/Counters.sol";
 
 /**
  * @dev {ERC721} token, including:
