@@ -4,5 +4,5 @@ module.exports = function (deployer) {
   deployer.deploy(ERC721PresetMinterPauserAutoId,
     "Hello NFT",
     "HelloNFT",
-    "https://my-json-server.typicode.com/NergYR/TestNFT"
+    "https://my-json-server.typicode.com/NergYR/TestNFT/tokens"
   )};
